@@ -1,0 +1,122 @@
+title: "Towny Menu"
+size: 27
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 3
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 5
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+  14:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 17
+  15:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 18
+  16:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 19
+  17:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 20
+  18:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 22
+  19:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 24
+  20:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 25
+  21:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 26
+
+
+clickable-items:
+  toggle-settings-menu:
+    material: SUNFLOWER
+    name: "&aToggle settings"
+    slot: 2
+  resident-menu:
+    material: PLAYER_HEAD
+    name: "&aResident menu"
+    slot: 4
+  permission-menu:
+    material: STONE_AXE
+    name: "&aPermission menu"
+    slot: 6
+  other-settings-menu:
+    material: ENDER_CHEST
+    name: "&aOther settings"
+    slot: 11
+  economy-menu:
+    material: EMERALD_BLOCK
+    name: "&aEconomy menu"
+    slot: 13
+  invite-player-menu:
+    material: BELL
+    name: "&aInvite player"
+    slot: 15
+  extra-towny-info-menu:
+    material: ENCHANTED_BOOK
+    name: "&aExtra Towny info"
+    slot: 21
+  plot-management-menu:
+    material: WOODEN_SHOVEL
+    name: "&aPlot management"
+    slot: 23

@@ -1,0 +1,105 @@
+title: "Town settings"
+size: 18
+values:
+  on-toggle: "&aOn"
+  off-toggle: "&cOff"
+
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  3:
+    material: NETHER_STAR
+    name: "Menu Info"
+    slot: 9
+    lore:
+      - "&7Adjust toggleable settings"
+      - "&7For your town"
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17
+  toggle-firespread:
+    material: CAMPFIRE
+    name: "&aToggle Firespread"
+    slot: 1
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-mobspawning:
+    material: ZOMBIE_HEAD
+    name: "&aToggle Mob Spawning"
+    slot: 2
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-explosions:
+    material: TNT
+    name: "&aToggle Explosions"
+    slot: 3
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-pvp:
+    material: IRON_SWORD
+    name: "&aToggle PVP"
+    slot: 4
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-public:
+    material: PLAYER_HEAD
+    name: "&aToggle Public"
+    slot: 5
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-open:
+    material: OAK_DOOR
+    name: "&aToggle Open"
+    slot: 6
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-taxpercent:
+    material: EMERALD
+    name: "&aToggle Tax Percent"
+    slot: 7
+    lore:
+      - ""
+      - "&eClick to turn %value%"

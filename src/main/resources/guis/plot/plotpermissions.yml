@@ -1,0 +1,320 @@
+title: "Permissions Menu"
+size: 54
+values:
+  on-toggle: "&aOn"
+  off-toggle: "&cOff"
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 3
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 5
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  11:
+    material: BRICKS
+    name: "&3Build"
+    slot: 10
+    lore:
+      - "&7Who has permission to build in your plot"
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+  14:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 17
+  15:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 18
+  16:
+    material: GOLDEN_PICKAXE
+    name: "&cDestroy"
+    slot: 19
+    lore:
+      - "&7Who has permission to destroy in your plot"
+  17:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 20
+  18:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 25
+  19:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 27
+  20:
+    material: FLINT_AND_STEEL
+    name: "&6Item item use"
+    slot: 28
+    lore:
+      - "&7Who has permission to item use items in your plot"
+  21:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 29
+  22:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 34
+  23:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 36
+  24:
+    material: DIAMOND_SWORD
+    name: "&4Switch"
+    slot: 37
+    lore:
+      - "&7Who has permission to switch in your plot"
+  25:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 38
+  26:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 43
+  27:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 44
+  28:
+    material: NETHER_STAR
+    name: "Menu Info"
+    lore:
+      - "&7Set permissions for"
+      - "&7different groups"
+      - "&7in your plot"
+    slot: 45
+  29:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 46
+  30:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 47
+  31:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 48
+  32:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 49
+  33:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 50
+  34:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 51
+  35:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 52
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 53
+  reset-all:
+    material: REDSTONE_BLOCK
+    name: "&cReset All"
+    slot: 26
+    lore:
+      - "&7Turn all permissions off"
+  turn-all-on:
+    material: LIME_STAINED_GLASS_PANE
+    name: "&aTurn All On"
+    slot: 35
+    lore:
+      - "&7Turn all permissions on"
+  permission-build-resident:
+    material: BELL
+    name: "&6&lBuild Resident Perm"
+    slot: 12
+    lore:
+      - "&7Can resident build in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-build-nation:
+    material: CHAINMAIL_CHESTPLATE
+    name: "&6&lBuild Nation Perm"
+    slot: 13
+    lore:
+      - "&7Can nations build in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-build-ally:
+    material: CARROT
+    name: "&6&lBuild Ally Perm"
+    slot: 14
+    lore:
+      - "&7Can allies build in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-build-outsider:
+    material: BONE
+    name: "&6&lBuild Outsider Perm"
+    slot: 15
+    lore:
+      - "&7Can outsiders build in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-destroy-resident:
+    material: BELL
+    name: "&6&lDestroy Resident Perm"
+    slot: 21
+    lore:
+      - "&7Can resident destroy in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-destroy-nation:
+    material: CHAINMAIL_CHESTPLATE
+    name: "&6&lDestroy Nation Perm"
+    slot: 22
+    lore:
+      - "&7Can nations destroy in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-destroy-ally:
+    material: CARROT
+    name: "&6&lDestroy Ally Perm"
+    slot: 23
+    lore:
+      - "&7Can allies destroy in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-destroy-outsider:
+    material: BONE
+    name: "&6&lDestroy Outsider Perm"
+    slot: 24
+    lore:
+      - "&7Can outsiders destroy in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-item_use-resident:
+    material: BELL
+    name: "&6&lItem use Resident Perm"
+    slot: 30
+    lore:
+      - "&7Can resident item use items in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-item_use-nation:
+    material: CHAINMAIL_CHESTPLATE
+    name: "&6&lItem use Nation Perm"
+    slot: 31
+    lore:
+      - "&7Can nations item use items in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-item_use-ally:
+    material: CARROT
+    name: "&6&lItem use Ally Perm"
+    slot: 32
+    lore:
+      - "&7Can allies item use items in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-item_use-outsider:
+    material: BONE
+    name: "&6&lItem use Outsider Perm"
+    slot: 33
+    lore:
+      - "&7Can outsiders item use items in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-switch-resident:
+    material: BELL
+    name: "&6&lSwitch Resident Perm"
+    slot: 39
+    lore:
+      - "&7Can resident switch in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-switch-nation:
+    material: CHAINMAIL_CHESTPLATE
+    name: "&6&lSwitch Nation Perm"
+    slot: 40
+    lore:
+      - "&7Can nations switch in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-switch-ally:
+    material: CARROT
+    name: "&6&lSwitch Ally Perm"
+    slot: 41
+    lore:
+      - "&7Can allies switch in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"
+  permission-switch-outsider:
+    material: BONE
+    name: "&6&lSwitch Outsider Perm"
+    slot: 42
+    lore:
+      - "&7Can outsiders switch in your plot?"
+      - "%value%"
+      - ""
+      - "&eClick to toggle"

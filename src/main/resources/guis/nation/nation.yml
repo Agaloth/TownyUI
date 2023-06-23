@@ -1,0 +1,116 @@
+title: "Nation Menu"
+size: 27
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 3
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 5
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+  14:
+    material: NETHER_STAR
+    name: "&aMenu Info"
+    slot: 18
+    lore:
+      - "&7Main menu for nations."
+  15:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 17
+  16:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 19
+  17:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 21
+  18:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 23
+  19:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 25
+  20:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 26
+
+
+clickable-items:
+  toggle-nation-settings-menu:
+    material: LEVER
+    name: "&aToggle settings"
+    slot: 2
+  town-list-menu:
+    material: PLAYER_HEAD
+    name: "&aTown List"
+    slot: 4
+  nation-resident-menu:
+    material: BOOK
+    name: "&aResident Menu"
+    slot: 6
+  nation-economy-menu:
+    material: EMERALD_BLOCK
+    name: "&aEconomy menu"
+    slot: 13
+  nation-settings-menu:
+    material: ENDER_CHEST
+    name: "&aNation Settings"
+    slot: 20
+  nation-invite-town-menu:
+    material: BELL
+    name: "&aInvite Town"
+    slot: 22
+  extra-nation-info-menu:
+    material: ENCHANTED_BOOK
+    name: "&aExtra Nation Info"
+    slot: 24

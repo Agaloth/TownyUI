@@ -1,0 +1,93 @@
+title: "Extra Info Menu"
+size: 18
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  4:
+    material: GOLDEN_AXE
+    name: "&aClaiming Info"
+    slot: 3
+    lore:
+      - "&a/t claim &7- claim a chunk of land"
+      - "&7Claiming requires money in"
+      - "&7Your town bank"
+      - "&7and requires you to be a"
+      - "&7chunk bordering your town."
+      - "&7Use F3+G to see chunk borders."
+      - "&a/towny map&7 to see claimed chunks"
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  6:
+    material: BOOKSHELF
+    name: "Claiming Info"
+    lore:
+      - "&a/t outlaw &7- outlaw a chunk of land"
+      - "&a/t outlawlist &7- list outlawed chunks"
+      - "&a/t buybonus &7- chunk purchase info"
+      - "&a/t online &7- list online residents"
+      - "&a/t say &7- chat with your town"
+      - "&a/t towny prices &7- towny prices/costs"
+      - "&a/t set mapcolor [color] &7- set your town's map color"
+    slot: 5
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  14:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ""
+    slot: 13
+  15:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  16:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  17:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17

@@ -1,0 +1,92 @@
+title: "General Settings Menu"
+size: 18
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  6:
+    material: NETHER_STAR
+    name: "Menu Info"
+    slot: 9
+    lore:
+      - "&7Adjust other"
+      - "&7extra town settings."
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17
+  set-home-button:
+    material: ENDER_PEARL
+    name: "&aSet Home"
+    slot: 1
+    lore:
+      - "&7Click to set your home"
+      - "&7to your current location."
+  set-spawn-button:
+    material: GLOWSTONE_DUST
+    name: "&aSet Spawn"
+    slot: 3
+    lore:
+      - "&7Click to set your town's"
+      - "&7spawn to your current location."
+  set-town-name:
+    material: LAPIS_LAZULI
+    name: "&aSet Town Name"
+    slot: 5
+    lore:
+      - "&7Click to set your town's"
+      - "&7name to your current location."
+  set-town-board:
+    material: OAK_SIGN
+    name: "&aSet Town Board"
+    slot: 7
+    lore:
+      - "&7Click to set your town's"
+      - "&7board to your current location."

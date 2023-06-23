@@ -1,0 +1,88 @@
+title: "Nation Economy Menu"
+size: 18
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17
+  nation-current-balance:
+    material: GOLD_INGOT
+    name: "&aCurrent Balance"
+    slot: 1
+    lore:
+      - "&7Your current balance is: &a%balance%"
+  deposit-money:
+    material: EMERALD
+    name: "&aDeposit Money"
+    slot: 3
+    lore:
+      - "&7Click to deposit money"
+      - "&7into your nation's bank."
+  withdraw-money:
+    material: ENDER_CHEST
+    name: "&aWithdraw Money"
+    slot: 5
+    lore:
+      - "&7Click to withdraw money"
+      - "&7from your nation's bank."
+  set-tax:
+    material: ARROW
+    name: "&aSet Tax"
+    slot: 7
+    lore:
+      - "&7Click to set the tax percentage"
+      - "&7for your nation."

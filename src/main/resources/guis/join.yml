@@ -1,0 +1,52 @@
+title: "Join or create a town"
+size: 36
+town-item:
+  material: PLAYER_HEAD
+  name: "&a%town%"
+  lore:
+    - "&7Click to join this town"
+    - ""
+    - "&aMayor: &7%mayor%"
+    - "&aResidents: &7%residents%"
+  owner: "%mayor%"
+
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 28
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 29
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 30
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 31
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 32
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 33
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 35
+  next-page:
+    material: ARROW
+    name: "&aNext page"
+    slot: 34
+  previous-page:
+    material: ARROW
+    name: "&aPrevious page"
+    slot: 27
+

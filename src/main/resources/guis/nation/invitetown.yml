@@ -1,0 +1,49 @@
+title: "Invite Town Info"
+size: 54
+
+town-item:
+    material: PLAYER_HEAD
+    name: "&a%town%"
+    lore:
+      - "&7Click to invite town to nation"
+    owner: "%mayor%"
+
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 46
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 47
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 48
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 49
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 50
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 51
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 53
+  next-page:
+    material: ARROW
+    name: "&aNext page"
+    slot: 52
+  previous-page:
+    material: ARROW
+    name: "&aPrevious page"
+    slot: 45

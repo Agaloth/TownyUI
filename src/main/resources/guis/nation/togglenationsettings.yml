@@ -1,0 +1,90 @@
+title: "Nation settings"
+size: 18
+values:
+  on-toggle: "&aOn"
+  off-toggle: "&cOff"
+
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 3
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 5
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  14:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17
+  toggle-open:
+    material: ACACIA_DOOR
+    name: "&aToggle Nation Open"
+    slot: 2
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-public:
+    material: CHEST
+    name: "&aToggle Nation Public"
+    slot: 4
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-taxpercent:
+    material: EMERALD
+    name: "&aToggle Nation Tax Percent"
+    slot: 6
+    lore:
+      - ""
+      - "&eClick to turn %value%"

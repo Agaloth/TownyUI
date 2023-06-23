@@ -1,0 +1,54 @@
+title: "Resident menu"
+size: 27
+
+resident-item:
+  material: PLAYER_HEAD
+  name: "&a%player%"
+  lore:
+    - "&aLast online: &7%online%"
+    - "&aTown rank: &7%rank%"
+  owner: "%player%"
+
+items:
+  1:
+    material: NETHER_STAR
+    name: "Menu Info"
+    slot: 18
+    lore:
+      - "&7Click on a resident"
+      - "&7to manage them"
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 20
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 21
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 22
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 23
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 24
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 26
+  next-page:
+    material: ARROW
+    name: "&aNext page"
+    slot: 25
+  previous-page:
+    material: ARROW
+    name: "&aPrevious page"
+    slot: 19
+

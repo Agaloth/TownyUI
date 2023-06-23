@@ -1,0 +1,41 @@
+title: "Plot Menu"
+size: 9
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+
+clickable-items:
+  toggle-settings-menu:
+    material: SUNFLOWER
+    name: "&aToggle settings"
+    slot: 1
+  permission-menu:
+    material: STONE_AXE
+    name: "&aPermission menu"
+    slot: 3
+  administration-menu:
+    material: BELL
+    name: "&aAdministration menu"
+    slot: 5
+  friend-menu:
+    material: ENDER_CHEST
+    name: "&aFriend menu"
+    slot: 7

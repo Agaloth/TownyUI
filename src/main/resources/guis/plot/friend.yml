@@ -1,0 +1,54 @@
+title: "Friend Menu"
+size: 27
+
+no-friend-item:
+  material: PLAYER_HEAD
+  name: "&a%player%"
+  lore:
+    - "&aClick to add friend"
+  owner: "%player%"
+friend-item:
+  material: PLAYER_HEAD
+  name: "&a%player%"
+  lore:
+    - "&cClick to remove friend"
+  owner: "%player%"
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 18
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 20
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 21
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 22
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 23
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 24
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 26
+  next-page:
+    material: ARROW
+    name: "&aNext page"
+    slot: 25
+  previous-page:
+    material: ARROW
+    name: "&aPrevious page"
+    slot: 19

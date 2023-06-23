@@ -1,0 +1,41 @@
+title: "Plot Admin"
+size: 9
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 3
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 5
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 8
+  set-plot-for-sale:
+    material: EMERALD_BLOCK
+    name: "&aSet plot for sale"
+    slot: 0
+  set-plot-not-for-sale:
+    material: REDSTONE_BLOCK
+    name: "&aSet plot not for sale"
+    slot: 2
+  set-plot-type:
+    material: DARK_OAK_DOOR
+    name: "&aSet plot type"
+    slot: 4
+  evict-plot-owner:
+    material: DIAMOND_AXE
+    name: "&aEvict plot owner"
+    slot: 6

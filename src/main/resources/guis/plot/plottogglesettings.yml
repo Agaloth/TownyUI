@@ -1,0 +1,96 @@
+title: "Town settings"
+size: 18
+values:
+  on-toggle: "&aOn"
+  off-toggle: "&cOff"
+
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  6:
+    material: NETHER_STAR
+    name: "Menu Info"
+    slot: 9
+    lore:
+      - "&7Adjust toggleable settings"
+      - "&7For your plot"
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17
+  toggle-firespread:
+    material: CAMPFIRE
+    name: "&aToggle Firespread"
+    slot: 1
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-mobspawning:
+    material: ZOMBIE_HEAD
+    name: "&aToggle Mob Spawning"
+    slot: 3
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-explosions:
+    material: TNT
+    name: "&aToggle Explosions"
+    slot: 5
+    lore:
+      - ""
+      - "&eClick to turn %value%"
+  toggle-pvp:
+    material: IRON_SWORD
+    name: "&aToggle PVP"
+    slot: 7
+    lore:
+      - ""
+      - "&eClick to turn %value%"

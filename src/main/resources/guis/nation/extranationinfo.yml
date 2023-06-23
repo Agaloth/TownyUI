@@ -1,0 +1,91 @@
+title: "Extra Nation Info"
+size: 18
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  4:
+    material: BOOK
+    name: "&aOther useful commands"
+    slot: 3
+    lore:
+      - ""
+      - "&a/n toggle neutral"
+      - "&a/n toggle peaceful"
+      - ""
+      - "&a/n ally [name]"
+      - "&a/n allylist"
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  6:
+    material: BOOKSHELF
+    name: "&a&lFurther Extra Commands"
+    lore:
+      - ""
+      - "&a/n enemy [name]"
+      - "&a/n enemy list"
+      - ""
+      - "&a/n set mapcolor [color] &7- set your"
+      - "&anations's map color"
+    slot: 5
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  14:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ""
+    slot: 13
+  15:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 14
+  16:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  17:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 16
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 17

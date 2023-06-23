@@ -1,0 +1,52 @@
+title: "Join or create a nation"
+size: 36
+town-item:
+  material: PLAYER_HEAD
+  name: "&a%nation%"
+  lore:
+    - "&7Click to join this nation"
+    - ""
+    - "&aKing: &7%king%"
+    - "&aTowns: &7%towns%"
+  owner: "%mayor%"
+
+items:
+  1:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 28
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 29
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 30
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 31
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 32
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 33
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 35
+  next-page:
+    material: ARROW
+    name: "&aNext page"
+    slot: 34
+  previous-page:
+    material: ARROW
+    name: "&aPrevious page"
+    slot: 27
+

@@ -1,0 +1,119 @@
+title: "Resident Menu"
+size: 27
+
+items:
+  0:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 0
+  2:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 1
+  3:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 2
+  4:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 3
+  5:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 4
+  6:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 5
+  7:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 6
+  8:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 7
+  9:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 8
+  10:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 9
+  11:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 10
+  12:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 11
+  13:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 12
+  15:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 13
+  17:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 15
+  18:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 17
+  19:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 18
+  20:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 19
+  21:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 20
+  22:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 21
+  23:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 22
+  24:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 23
+  25:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 24
+  26:
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+    slot: 25
+
+clickable-items:
+  back:
+    material: OAK_DOOR
+    name: "&aBack"
+    slot: 26
+  set-resident-rank:
+    material: IRON_SWORD
+    name: "&aSet rank"
+    slot: 14
+    lore:
+      - "&7Click to set rank"
+  give-resident-king:
+    material: GOLDEN_APPLE
+    name: "&aGive mayor"
+    slot: 16
+    lore:
+      - "&7Click to give king"
+      - "&7to this resident"
