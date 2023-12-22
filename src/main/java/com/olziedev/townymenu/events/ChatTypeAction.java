@@ -4,6 +4,7 @@ import com.olziedev.townymenu.TownyMenuPlugin;
 import com.olziedev.townymenu.utils.Configuration;
 import com.olziedev.townymenu.utils.Utils;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -37,9 +38,10 @@ public class ChatTypeAction implements Listener {
             event.getRecipients().clear();
             if (event.getMessage().equalsIgnoreCase(Configuration.getConfig().getString("lang.cancel-chat-wait"))) {
                 Utils.sendMessage(player, Configuration.getConfig().getString("lang.chat-wait-cancelled"));
+                input.remove(player);
                 return;
             }
-            if (consumer.test(event.getMessage())) input.remove(player);
+            if (consumer.test(ChatColor.stripColor(Utils.color(event.getMessage())))) input.remove(player);
         }, plugin);
     }
 
