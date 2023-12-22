@@ -63,11 +63,11 @@ public class ResidentMenu extends PageMenu {
                 menu.open(player);
             }, resident));
         }
-        FrameworkMenu menu = super.open(player, pageItems, super.build(function));
+        FrameworkMenu menu = super.build(function);
         this.backButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
         this.nextButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
         this.previousButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
-        return menu;
+        return super.open(player, pageItems, menu);
     }
 
     @Override
