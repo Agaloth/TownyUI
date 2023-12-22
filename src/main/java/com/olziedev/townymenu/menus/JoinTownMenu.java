@@ -3,6 +3,7 @@ package com.olziedev.townymenu.menus;
 import com.olziedev.olziemenu.OlzieMenu;
 import com.olziedev.olziemenu.framework.menu.FrameworkMenu;
 import com.palmergames.bukkit.towny.object.Town;
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -44,14 +45,14 @@ public class JoinTownMenu extends PageMenu {
             Function<List<String>, List<String>> replaceFunction = strings -> strings.stream().map(s -> s.replace("%mayor%", town.getMayor().getName()).replace("%town%", town.getFormattedName()).replace("%residents%", String.valueOf(town.getNumResidents()))).toList();
             pageItems.add(new PageItem<>(() -> this.createItem(this.section.getConfigurationSection("town-item"), x -> replaceFunction.apply(Collections.singletonList(x)).get(0), replaceFunction), (click, item) -> {
                 this.townyAddon.execute(player, "join " + town.getName());
-                player.closeInventory();
+                Bukkit.getScheduler().runTask(plugin, () -> player.closeInventory());
             }, town));
         }
-        FrameworkMenu menu = super.open(player, pageItems, super.build(function));
+        FrameworkMenu menu = super.build(function);
         this.backButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
         this.nextButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
         this.previousButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
-        return menu;
+        return super.open(player, pageItems, menu);
     }
 
     @Override
