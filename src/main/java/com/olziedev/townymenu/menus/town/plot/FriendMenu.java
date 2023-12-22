@@ -16,6 +16,7 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.entity.Player;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -62,22 +63,21 @@ public class FriendMenu extends PageMenu {
             pageItems.add(new PageItem<>(() -> this.createItem(this.section.getConfigurationSection(playerResident.getFriends().stream().anyMatch(x -> x.getUUID().equals(resident.getUniqueId())) ? "friend-item" : "no-friend-item"), x -> replaceFunction.apply(Collections.singletonList(x)).get(0), replaceFunction), (click, item) -> {
                 try {
                     playerResident.addFriend(this.townyAddon.getResident(resident));
-                    Utils.sendMessage(player, Configuration.getConfig().getString("messages.friend-added").replace("%player%", resident.getName()));
+                    Utils.sendMessage(player, Configuration.getConfig().getString("lang.friend-added").replace("%player%", resident.getName()));
                 } catch (AlreadyRegisteredException e) {
                     playerResident.removeFriend(this.townyAddon.getResident(resident));
-                    Utils.sendMessage(player, Configuration.getConfig().getString("messages.friend-removed").replace("%player%", resident.getName()));
+                    Utils.sendMessage(player, Configuration.getConfig().getString("lang.friend-removed").replace("%player%", resident.getName()));
                 }
                 this.resetCache(player);
                 this.dontActivateClose(player);
                 this.open(player, function);
             }, resident));
         }
-
-        FrameworkMenu menu = super.open(player, pageItems, super.build(function));
+        FrameworkMenu menu = super.build(function);
         this.backButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
         this.nextButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
         this.previousButton.forEach(section -> menu.setItem(section.getInt("slot"), this.createItem(section)));
-        return menu;
+        return super.open(player, pageItems, menu);
     }
 
     @Override
